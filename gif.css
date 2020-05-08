@@ -1,0 +1,19 @@
+.a {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    background-color: red;
+    height: 160px;
+}
+
+button {
+    padding-bottom: 10px;
+}
+
+body {
+    background-image: url("https://theglobalcoverage.com/wp-content/uploads/2020/01/Superheroes.jpg");
+}
+
+
