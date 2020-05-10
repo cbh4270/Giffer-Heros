@@ -67,7 +67,7 @@ $(document).ready(function(){
     })
 
     function searchGifs(term) {
-        var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=6a1KH6qz487fGIEahh9ecflbMI9e3ePZ&q="
+        var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=6a1KH6qz487fGIEahh9ecflbMI9e3ePZ&q="
             + term + "&limit=10&offset=0&rating=PG-13&lang=en";
         $.ajax({
             url: queryURL,
