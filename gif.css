@@ -1,19 +1,50 @@
-.a {
-    display: flex;
-    justify-content: center;
-}
+
 
 nav {
     background-color: red;
-    height: 160px;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    text-justify: auto;
+    padding-top: 20px;
 }
+
 
 button {
     padding-bottom: 10px;
+    
+    color: white;
+    background-color: blue;
+}
+
+#gif-images {
+    float: left;
+    
+    
+    
 }
 
 body {
-    background-image: url("https://theglobalcoverage.com/wp-content/uploads/2020/01/Superheroes.jpg");
+    background-image: url(https://www.gamespresso.com/wp-content/uploads/2017/01/marvel_character_group-crop-1200x520.jpg);
+    
+    background-size: 135%;
+    
+    font-family: 'Baloo Paaji 2', cursive;
+    align-content: center;
+    
+}
+#container
+{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+    background-color: blue;
+    color: white;
+    width: 500px;
+    margin-left: 100px;
+
+  
+   
 }
 
-
+https://imgix.ranker.com/collection_img/1/1704/original/the-universe-of-marvel-comics-u5?w=751&h=271&fm=pjpg&fit=crop&q=50
